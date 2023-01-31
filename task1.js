@@ -6,4 +6,4 @@ let y2 = 5
 
 let xSide = x2 - x1
 let ySide = y1 - y2
-console.log("Площадь прямоугольника равна:", xSide * ySide)
+console.log("Площадь прямоугольника равна:", Math.abs(xSide) * Math.abs(ySide))
